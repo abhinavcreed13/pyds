@@ -1,3 +1,7 @@
-from .context import core
+import core
 
-import unittest
+import pytest
+
+def test_case1():
+    obj = core.module.test1()
+    assert obj.test_fn() == 90
