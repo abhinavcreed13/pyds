@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyds",
-    version="0.0.1",
+    version="0.0.2",
     author="Abhinav Sharma",
     author_email="abhinavcs13@gmail.com",
     description="Data Structures Implementation in Python",
